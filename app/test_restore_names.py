@@ -2,7 +2,7 @@ from app.restore_names import restore_names
 from unittest import mock
 
 
-@mock.patch("app.restore_names.restore_from_file")
+@mock.patch("app.restore_names.restore_names")
 def test_first_name_equal_to_none() -> None:
     users = [
         {
